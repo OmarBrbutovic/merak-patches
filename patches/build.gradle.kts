@@ -10,17 +10,17 @@ plugins {
     alias(libs.plugins.animalsniffer)
 }
 
-group = "app.template"
+group = "app.merak"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "Merak Patches"
+        description = "Small patches that make Android apps nicer to use. Google Authenticator: " +
+            "folders or cards for accounts, MicroG-RE sign-in, custom name and icon."
+        source = "git@github.com:OmarBrbutovic/merak-patches.git"
+        author = "Merak"
+        contact = "https://github.com/OmarBrbutovic/merak-patches/issues"
+        website = "https://github.com/OmarBrbutovic/merak-patches"
         license = "GPLv3"
     }
 }

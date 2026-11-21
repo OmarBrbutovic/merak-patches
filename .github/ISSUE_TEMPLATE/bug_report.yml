@@ -6,12 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Patches template bug report
+        # Bug report
 
         Before creating a new bug report, please keep the following in mind:
 
-        - **Do not submit a duplicate bug report**: Search for existing bug reports [here](https://github.com/TEMPLATE/template-patches-template/issues?q=label%3A%22Bug+report%22).
-        - **Review the contribution guidelines**: Make sure your bug report adheres to it. You can find the guidelines [here](https://github.com/TEMPLATE/template-patches-template/blob/main/CONTRIBUTING.md).
+        - **Do not submit a duplicate bug report**: Search for existing bug reports [here](https://github.com/OmarBrbutovic/merak-patches/issues?q=label%3A%22Bug+report%22).
+        - **Never share codes, secret keys or QR codes**: Hide account names and codes in screenshots and videos.
   - type: textarea
     attributes:
       label: Bug description
@@ -23,8 +23,21 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: Environment
+      description: Versions and setup used when the bug happened.
+      value: |
+        - Google Authenticator version (before patching):
+        - Patches version:
+        - Patches applied (and changed patch options):
+        - Patched with (Morphe Manager / Morphe Desktop) and its version:
+        - MicroG-RE version (if signing in):
+        - Device and Android version:
+    validations:
+      required: true
+  - type: textarea
+    attributes:
       label: Error logs
-      description: Exceptions can be captured by running `logcat | grep AndroidRuntime` in a shell.
+      description: Exceptions can be captured by running `adb logcat | grep -E "AndroidRuntime|MorpheOrganizer"` in a shell.
       render: shell
   - type: textarea
     attributes:
