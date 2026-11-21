@@ -68,16 +68,11 @@ Categories are stored only on your device, inside the patched app. Accounts are 
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/OmarBrbutovic/merak-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**3 patches** across **1 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
-<!-- Do not modify this section by hand. The patch list is generated when release.yml creates a new release.
-
-     If you wish for the patches list to be collapsed, then remove the word 'EXPANDED' from the comment tag above.
-
-     If you wish to manually keep this list updated then remove the PATCHES_START and PATCHES_END
-     comment blocks entirely. -->
-
-#### The patches list is shown here after the first release.
-
+| # | App | Patches | Version | Package |
+|---|---|---|---|---|
+| 1 | [**Google Authenticator**](PATCHES.md#google-authenticator-comgoogleandroidappsauthenticator2) | 3 | `7.2` | [`com.google.android.apps.authenticator2`](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) |
 <!-- PATCHES_END -->
 
 ## 🛠️ Building locally
